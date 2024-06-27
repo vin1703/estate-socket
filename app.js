@@ -2,7 +2,7 @@ import {Server} from "socket.io"
 import 'dotenv/config'
 
 const CLIENT_URL = process.env.CLIENT_URL;
-console.log(CLIENT_URL);
+// console.log(CLIENT_URL);
 const io = new Server({
     cors:{
         origin : CLIENT_URL
